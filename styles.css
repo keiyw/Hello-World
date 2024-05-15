@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Define a altura da página para a altura total da viewport */
+    background: url('img/human\ looking\ into\ star\ cluster.jpg') no-repeat center center fixed; /* Adiciona a imagem de fundo */
+    background-size: cover; /* Garante que a imagem cubra todo o fundo */
+  }
+  
+  .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  #message {
+    font-size: 36px;
+    color: #FAFFFD;
+    margin-bottom: 20px;
+  }
+  
+  #language-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #language-button:hover {
+    background-color: #E0E0E0;
+  }
+  
